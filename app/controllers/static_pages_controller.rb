@@ -11,7 +11,5 @@ class StaticPagesController < ApplicationController
   def contact
   end
   
-  def kim
-  end
-  
+ 
 end
