@@ -1,3 +1,81 @@
-a.btn{
-	
+body {
+background-image: url(https://twimg0-a.akamaihd.net/images/themes/theme1/bg.png);
+background-position: left 40px;
+background-attachment: fixed;
+background-repeat: repeat;
+background-repeat: no-repeat;
+background-color: #C0DEED;
+}
+
+.wrapper, .wrapper-narrow, .wrapper-permalink {
+position: relative;
+width: 845px;
+min-height: 100%;
+padding: 0px 14px 15px;
+margin: 0px auto;
+background: url(https://twimg0-a.akamaihd.net/a/1330626450/t1/img/wash-white-30.png);
+}
+
+.wrapper {
+padding-bottom: 0;
+}
+
+.dashboard {
+float: left;
+width: 302px;
+}
+
+/************** HARTL CSS (BORROWED) ******************/
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+
+
+
+
+td.sidebar {
+	background-color: whiteSmoke;
+	padding: 1em;
+	border: 1px solid #CCC;
+}
+
+
+
+
+.profile img.gravatar {
+  border: 1px solid #999;
+  margin-bottom: -15px;
+}
+
+/************** TWITTER CSS (BORROWED) ******************/
+.mini-profile {
+font-size: 12px;
+}
+
+.module {
+text-shadow: 0 1px 0 white;
+border: 1px solid #EEE;
+border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.module, .promptbird {
+position: relative;
+margin-bottom: 10px;
+line-height: 16px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+}
+
+.account-summary-small .content {
+margin-left: 42px;
 }
