@@ -17,6 +17,9 @@
 			<div class="container wrapper">
 		<br/>	
 	      <section class="round">
+					<% flash.each do |key, value| %>
+					  <div class="flash <%= key %> alert alert-<%= key %>"><%= value %></div>
+					<% end %>
 					<%= yield %>
 	      </section>
 		  <%= render 'layouts/footer' %>
